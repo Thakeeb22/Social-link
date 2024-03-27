@@ -26,10 +26,10 @@ Users should be able to:
 ## desktop view
 
 ![](./assets/images/desktop%20view%20active%20state.png)
+![](./assets/images/desktop%20view.PNG)
 
 ## mobile view
 
-![](./assets/images/desktop%20view.PNG)
 ![](./assets/images/MObile%20view.png)
 
 ### Links
