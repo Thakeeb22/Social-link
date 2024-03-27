@@ -1,0 +1,372 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  grid-template-areas: "container container container container container container container container";
+}
+.grid-container {
+  grid-area: container;
+  display: grid;
+  width: 400px;
+  height: 650px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 12%);
+  margin: 50px auto;
+  align-content: center;
+  justify-items: center;
+}
+.pic img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+.profile-name {
+  font-family: inherit;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+}
+.profile-loc {
+  font-family: inherit;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.profile-hub {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  margin-top: 20px;
+}
+.git a {
+  text-decoration: none;
+  font-style: none;
+  color: hsl(0, 0%, 100%);
+  display: block;
+  padding: 1rem;
+}
+.git {
+  text-align: center;
+  font-size: 14px;
+  width: 300px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  font-family: inherit;
+  font-weight: 600;
+}
+.git:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+.git:hover a {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+  font-weight: 600;
+}
+.git:focus {
+  background-color: hsl(75, 94%, 57%);
+  border: none;
+  outline: none;
+}
+.git:focus a {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+.frontendmentor a {
+  display: block;
+  text-decoration: none;
+  font-style: none;
+  color: hsl(0, 0%, 100%);
+  padding: 1rem;
+}
+.frontendmentor {
+  font-size: 14px;
+  width: 300px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  font-family: inherit;
+  font-weight: 600;
+}
+.frontendmentor:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+.frontendmentor:hover a {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+  font-weight: 600;
+}
+.frontendmentor:focus {
+  background-color: hsl(75, 94%, 57%);
+  border: none;
+  outline: none;
+}
+.frontendmentor:focus a {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+.link a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  font-style: none;
+  color: hsl(0, 0%, 100%);
+}
+.link {
+  font-size: 14px;
+  width: 300px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  font-family: inherit;
+  font-weight: 600;
+}
+.link:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+.link:hover a {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+  font-weight: 600;
+}
+.link:focus {
+  background-color: hsl(75, 94%, 57%);
+  border: none;
+  outline: none;
+}
+.link:focus a {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+.twit a {
+  text-decoration: none;
+  font-style: none;
+  color: hsl(0, 0%, 100%);
+  display: block;
+  padding: 1rem;
+}
+.twit {
+  font-size: 14px;
+  width: 300px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  background-color: hsl(0, 0%, 20%);
+  font-family: inherit;
+  font-weight: 600;
+}
+.twit:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+.twit:hover a {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+  font-weight: 600;
+}
+.twit:focus {
+  background-color: hsl(75, 94%, 57%);
+  border: none;
+  outline: none;
+}
+.twit:focus a {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+.insta a {
+  text-decoration: none;
+  font-style: none;
+  color: hsl(0, 0%, 100%);
+  display: block;
+  padding: 1rem;
+}
+.insta {
+  font-size: 14px;
+  width: 300px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  font-family: inherit;
+  font-weight: 600;
+}
+.insta:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+.insta:hover a {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+  font-weight: 600;
+}
+.insta:focus {
+  background-color: hsl(75, 94%, 57%);
+  border: none;
+  outline: none;
+}
+.insta:focus a {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+.attribution {
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+.attribution a {
+  font-style: none;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+@media (max-width: 800px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Inter", sans-serif;
+        background-color: hsl(0, 0%, 8%);
+        display: grid;
+        justify-items: center;
+        align-content: center;
+        grid-template-areas: "container container container container container container container container";
+      }
+      .grid-container {
+        grid-area: container;
+        display: grid;
+        width: 400px;
+        height: 600px;
+        border-radius: 20px;
+        background-color: hsl(0, 0%, 12%);
+        margin: 100px auto;
+        align-content: center;
+        justify-items: center;
+      }
+      .profile-name{
+        font-size: 25px;
+      }
+      .profile-loc{
+        font-size: 15px;
+      }
+      .profile-hub{
+        font-size: 15px;
+      }
+      .git a{
+        padding: 0.8rem;
+      }
+      .git{
+        width: 250px;
+      }
+      .frontendmentor a{
+        padding: 0.8rem;
+      }
+      .frontendmentor{
+        width: 250px;
+      }
+      .link a{
+        padding: 0.8rem;
+      }
+      .link{
+        width: 250px;
+      }
+      .twit a{
+        padding: 0.8rem;
+      }
+      .twit{
+        width: 250px;
+      }
+      .insta a{
+        padding: 0.8rem;
+      }
+      .insta{
+        width: 250px;
+      }
+}
+@media (max-width: 400px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Inter", sans-serif;
+        background-color: hsl(0, 0%, 8%);
+        display: grid;
+        justify-items: center;
+        align-content: center;
+        grid-template-areas: "container container container container container container container container";
+      }
+      .grid-container {
+        grid-area: container;
+        display: grid;
+        width: 300px;
+        height: 500px;
+        border-radius: 20px;
+        background-color: hsl(0, 0%, 12%);
+        margin: 100px auto;
+        align-content: center;
+        justify-items: center;
+      }
+      .profile-name{
+        font-size: 20px;
+      }
+      .profile-loc{
+        font-size: 10px;
+      }
+      .profile-hub{
+        font-size: 10px;
+      }
+      .git a{
+        padding: 0.5rem;
+      }
+      .git{
+        width: 200px;
+      }
+      .frontendmentor a{
+        padding: 0.5rem;
+      }
+      .frontendmentor{
+        width: 200px;
+      }
+      .link a{
+        padding: 0.5rem;
+      }
+      .link{
+        width: 200px;
+      }
+      .twit a{
+        padding: 0.5rem;
+      }
+      .twit{
+        width: 200px;
+      }
+      .insta a{
+        padding: 0.5rem;
+      }
+      .insta{
+        width: 200px;
+      }
+}
