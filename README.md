@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live Site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-social-link-profile-inphejpX6S)
+- Live Site URL: [Live Site URL](https://thakeeb22.github.io/Social-link/)
 
 ## My process
 
@@ -52,6 +52,6 @@ i want to continue learning about using CSS GRID fro responsive website.
 
 ## Author
 
-- Website - [Muhammad Thakeeb Muhammad](https://www.your-site.com)
+- Website - [Muhammad Thakeeb Muhammad](https://thakeeb22.github.io/Social-link/)
 - Frontend Mentor - [@Thakeeb22](https://www.frontendmentor.io/profile/Thakeeb22)
 - Twitter - [@MuhammadThakeeb](https://www.twitter.com/yourusername)
