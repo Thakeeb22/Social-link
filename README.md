@@ -52,6 +52,6 @@ i want to continue learning about using CSS GRID fro responsive website.
 
 ## Author
 
-- Website - [Muhammad Thakeeb Muhammad](https://thakeeb22.github.io/Social-link/)
+- Website - [Muhammad Thakeeb Muhammad](https://thakeeb22.github.io/mt-tech-designs/)
 - Frontend Mentor - [@Thakeeb22](https://www.frontendmentor.io/profile/Thakeeb22)
-- Twitter - [@MuhammadThakeeb](https://www.twitter.com/yourusername)
+- Twitter - [@MuhammadThakeeb](https://www.twitter.com/MuhammadThakeeb)
